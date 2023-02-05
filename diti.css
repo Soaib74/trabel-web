@@ -1,0 +1,917 @@
+.nav-link{
+   font-size: 20px;
+   color: #fff;
+   font-weight: 400;
+   margin-left: 15px;
+   transition: 0.4s;
+ }
+ .bgc{
+   background-color: rgba(151, 81, 192, 0.336);
+   padding: 25px;
+ }
+ #hshide{
+  display: none;
+ }
+ .SingUp{
+   margin-left: 15px;
+   transition: 0.3s;
+ }
+ .navbar-brand{
+   color: rgb(5, 115, 148);
+   background-color: white;
+   padding: 15px 15px 15px;
+   border-radius: 10px 15px 35px 25px;
+   font-size: 25px;
+   font-weight: 400;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   font-family: 'Times New Roman', Times, serif;
+   box-shadow: 0px 5px 30px rgb(221, 34, 221);
+   
+ }
+
+ .search{
+   float: right;
+   display: flex;
+   margin-top: 30px;
+   padding: 10px 15px;
+   background-color: rgba(12, 12, 12, 0.425);
+   border-radius: 30px;
+ }
+ .search input{
+  width: 400px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  flex: 1;
+
+  
+ }
+ .search button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  
+ }
+ ::placeholder{
+  color: #fff;
+ }
+ .heros{
+   display: flex;
+ }
+ .heros img{
+   width: 400px;
+   height: 600px;
+   margin-top: 70px;
+   border-radius: 15px;
+   transition: 0.6s;
+ }
+ .heros img:hover{
+   transform: translateY(-20px);
+ }
+ 
+ .heros .aht button{
+   padding: 12px;
+   font-size: 20px;
+   margin-top: 20px;
+
+ }
+ .heros .aht{
+   margin-top: 130px;
+   margin-left: 50px;
+   
+ }
+ .heros .aht h2{
+   font-size: 30px;
+   color: rgb(65, 0, 243);
+   word-spacing: 10px;
+   letter-spacing: 5px;
+   text-transform: capitalize;
+   
+ }
+ .heros .aht p{
+   margin-top: 25px;
+   color: rgb(230, 110, 180);
+   width: 750px;
+   text-align: justify;
+   font-size: 18px;
+ }
+ .heros .aht p .see{
+  color: #000000;
+  cursor: pointer;
+ }
+  .section-2 h1{
+   text-align: center;
+   margin-top: 80px;
+   text-transform: uppercase;
+   font-family: 'Times New Roman', Times, serif;
+   line-height: 20px;
+   color: rgb(136, 50, 248);
+   letter-spacing: 3px;
+   word-spacing: 3px;
+  }
+ .fsitems{
+   margin-top: 100px;
+   width: 100%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 60px;
+ }
+  
+ .fsitem{
+   position: relative;
+   width: 400px;
+   height: 70%;
+   background-color: rgb(255, 255, 255);
+   padding: 20px 20px 40px;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, .6);
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   cursor: pointer;
+   transition: 0.5s;
+ }
+  .fsitem:hover{
+   transform: translateY(-17px);
+   background-color: bisque;
+  }
+ .fsitem .image img{
+   width: 350px;
+   height: 250px;
+   border-radius: 10px;
+   transition: 0.5s;
+ }
+ .fsitem .image img:hover{
+   transform: scaleX(1.1);
+
+ }
+ .fsitem p{
+   font-size: 18px;
+   line-height: 25px;
+ }
+   .fsitem .itetext{
+       width: 100%;
+       justify-content: space-between;
+       display: flex;
+       margin-top: 10px;
+   }
+   .fsitem .itetext h3{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 33px;
+       color: rgb(204, 15, 221);
+       font-weight: 600;
+       letter-spacing: 4px;
+   }
+   .fsitem .itetext span{
+       color: rgb(192, 81, 81);
+       margin-top: 10px;
+   }
+   .fsitem .stars{
+       color: goldenrod;
+       font-size: 18px;
+   }
+
+    .fsitem .visit{
+       width: 100%;
+       justify-content: space-between;
+       display: flex;
+       margin-top: 10px;
+    }
+    .fsitem .visit p{
+       margin-top: 15px;
+       color: rgb(223, 85, 131);
+    }
+       .section-3 h1{
+          text-align: center;
+          margin-top: 150px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: blueviolet;
+          font-family: 'Times New Roman', Times, serif;
+          word-spacing: 4px;
+          letter-spacing: 3px;
+       }
+       .carousel-item img{
+        width: 60%;
+        height: 500px;
+        border-radius: 10px;
+        border: 2px dotted black;
+       }
+       .carousel{
+        margin-top: 100px;
+       }
+
+       .section-4 h1{
+        text-align: center;
+        margin-top: 80px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 20px;
+        color: rgb(136, 50, 248);
+        letter-spacing: 3px;
+        word-spacing: 3px;
+       }
+       .section-5{
+        background-color: #00000052;
+        padding: 10px 20px;
+
+       }
+    
+       .lomap{
+        display: flex;
+       
+
+       }
+       .lomap iframe{
+        width: 1000px;
+        border-radius: 10px;
+        border: 3px solid rgb(32, 200, 252)
+        
+       }
+      
+       footer{
+        width: 100%;
+        position: absolute;
+        background: #000;
+        color: #fff;
+        padding: 100px 0;
+        font-size: 13px;
+        line-height: 20px;
+       
+       }
+       .rows{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+       }
+       .cols{
+          flex-basis: 25%;
+          padding: 10px;
+
+       }
+       .cols p{
+       font-size: 18px;
+       }
+       .cols h3{
+        text-align: center;
+       width: fit-content;
+       margin-bottom: 40px;
+       position: relative;
+       }
+       .cols h2{
+        text-align: center;
+       width: fit-content;
+       margin-bottom: 40px;
+       position: relative;
+       }
+        .cols .email-Id{
+        width: fit-content;
+        border-bottom: 1px solid #ccc;
+
+       }
+       form{
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
+       }
+       form input{
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+       }
+
+
+       /*--media--*/
+       @media screen and ( max-width: 1199px) {
+        .search {
+          float: right;
+          display: flex;
+          margin-top: 38px;
+          padding: 8px 8px;
+          background-color: rgba(12, 12, 12, 0.425);
+          border-radius: 30px;
+      }
+      .search input {
+        width: 360px;
+        border: none;
+        background: transparent;
+        color: #fff;
+        outline: none;
+        font-size: 16px;
+        flex: 1;
+    }
+    .search button {
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 17px;
+  }
+       
+       
+        .heros img {
+          width: 291px;
+          height: 497px;
+          margin-top: 147px;
+          border-radius: 15px;
+          transition: 0.6s;
+      }
+      .heros .aht {
+        margin-top: 155px;
+        margin-left: 27px;
+    }
+    .heros .aht h2 {
+      font-size: 31px;
+      color: rgb(65, 0, 243);
+      word-spacing: 10px;
+      letter-spacing: 5px;
+      text-transform: capitalize;
+  }
+  .heros .aht p {
+    margin-top: 18px;
+    color: rgb(230, 110, 180);
+    width: 593px;
+    text-align: justify;
+    font-size: 15px;
+}
+.heros .aht button {
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 18px;
+}
+  .cols p {
+    font-size: 15px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+        
+       }
+       @media screen and (max-width:991px) {
+        .heros img {
+          width: 271px;
+          height: 458px;
+          margin-top: 172px;
+          border-radius: 15px;
+          transition: 0.6s;
+      }
+      .heros .aht h2 {
+        font-size: 27px;
+        color: rgb(65, 0, 243);
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+    }
+    .heros .aht {
+      margin-top: 173px;
+      margin-left: 35px;
+  }
+  .heros .aht p {
+    margin-top: 12px;
+    color: rgb(230, 110, 180);
+    width: 384px;
+    text-align: justify;
+    font-size: 12px;
+}
+.heros .aht button {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 14px;
+}
+.section-2 h1 {
+  text-align: center;
+  margin-top: 92px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 13px;
+  color: rgb(136, 50, 248);
+  letter-spacing: 3px;
+  word-spacing: 1px;
+}
+.alert-dismissible {
+  padding-right: -31rem;
+}
+.cols p {
+  font-size: 13px;
+}
+.cols h3 {
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 46px;
+  position: relative;
+}
+form {
+  padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: -59px;
+}
+
+.carousel-item img {
+  width: 60%;
+  height: 387px;
+  border-radius: 10px;
+  border: 2px dotted black;
+}
+.cols p {
+  font-size: 13px;
+  width: 200px;
+}
+
+        
+       }
+       @media screen and (max-width:768px) {
+        .heros .aht {
+          margin-top: 193px;
+          margin-left: 11px;
+      }
+      .heros .aht h2 {
+        font-size: 24px;
+        color: rgb(65, 0, 243);
+        word-spacing: 2px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+    }
+    .heros .aht p {
+      margin-top: 10px;
+      color: rgb(230, 110, 180);
+      width: 245px;
+      text-align: justify;
+      font-size: 9px;
+  }
+  .heros img {
+    width: 258px;
+    height: 433px;
+    margin-top: 187px;
+    border-radius: 15px;
+    margin-left: -5px;
+    transition: 0.6s;
+}
+.carousel-item img {
+  width: 60%;
+  height: 321px;
+  border-radius: 10px;
+  border: 2px dotted black;
+}
+.cols h3 {
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 73px;
+  position: relative;
+}
+        
+       }
+       
+       @media screen and (max-width:551px) {
+        .heros img {
+          width: 258px;
+          height: 433px;
+          margin-top: 187px;
+          border-radius: 15px;
+          margin-left: -5px;
+          transition: 0.6s;
+      }
+      .heros .aht {
+        margin-top: 193px;
+        margin-left: 5px;
+    }
+    .heros .aht h2 {
+      font-size: 18px;
+      color: rgb(65, 0, 243);
+      word-spacing: 2px;
+      letter-spacing: 3px;
+      text-transform: capitalize;
+  }
+  .heros .aht p {
+    margin-top: 10px;
+    color: rgb(230, 110, 180);
+    width: 186px;
+    text-align: justify;
+    font-size: 8px;
+}
+.heros .aht button {
+  padding: 9px;
+  font-size: 11px;
+  margin-top: 24px;
+}
+        
+       }
+
+       @media screen and (max-width: 490px) {
+        .heros img {
+          width: 458px;
+          height: 433px;
+          margin-top: 138px;
+          border-radius: 15px;
+          margin-left: -5px;
+          transition: 0.6s;
+      }
+      .heros{
+        display: block;
+      }
+      .heros .aht {
+        margin-top: 48px;
+        margin-left: 22px;
+    }
+    .heros .aht h2 {
+      font-size: 29px;
+      color: rgb(65, 0, 243);
+      word-spacing: 2px;
+      letter-spacing: 3px;
+      text-transform: capitalize;
+  }
+  .heros .aht p {
+    margin-top: 14px;
+    color: rgb(230, 110, 180);
+    width: 382px;
+    text-align: justify;
+    font-size: 13px;
+}
+  .heros .aht {
+    margin-top: 189px;
+    margin-left: 22px;
+}
+.heros .aht button {
+  padding: 9px;
+  font-size: 15px;
+  margin-top: 24px;
+}
+.section-2 h1 {
+  text-align: center;
+  margin-top: 90px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 11px;
+  color: rgb(136, 50, 248);
+  letter-spacing: 2px;
+  font-size: 27px;
+  word-spacing: 1px;
+}
+.fsitem .image img {
+  width: 323px;
+  height: 222px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.fsitem {
+  position: relative;
+  width: 360px;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 17px 25px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fsitem .itetext h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: rgb(204, 15, 221);
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.fsitem .itetext span {
+  color: rgb(192, 81, 81);
+  margin-top: 4px;
+  font-size: 12px;
+}
+.fsitem p {
+  font-size: 13px;
+  line-height: 25px;
+}
+.section-3 h1 {
+  text-align: center;
+  margin-top: 111px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+  font-size: 29px;
+  letter-spacing: 2px;
+}
+.carousel-item img {
+  width: 60%;
+  height: 285px;
+  border-radius: 10px;
+  border: 2px dotted black;
+}
+.cols h2 {
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 18px;
+}
+        
+       }
+      
+       @media screen and (max-width:481px ) {
+        .search input {
+          width: 260px;
+          border: none;
+          background: transparent;
+          color: #fff;
+          outline: none;
+          font-size: 16px;
+          flex: 1;
+      }
+      .heros img {
+        width: 302px;
+        height: 494px;
+        margin-top: 67px;
+        border-radius: 15px;
+        margin-left: 0px;
+        transition: 0.6s;
+    }
+    .heros .aht {
+      margin-top: 89px;
+      margin-left: 7px;
+  }
+  .heros .aht h2 {
+    font-size: 18px;
+    color: rgb(65, 0, 243);
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.heros .aht p {
+  margin-top: 14px;
+  color: rgb(230, 110, 180);
+  width: 269px;
+  text-align: justify;
+  font-size: 11px;
+}
+.heros .aht button {
+  padding: 9px;
+  font-size: 15px;
+  margin-top: 24px;
+}
+.section-2 h1 {
+  text-align: center;
+  margin-top: 90px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 11px;
+  color: rgb(136, 50, 248);
+  letter-spacing: 0px;
+  font-size: 22px;
+  word-spacing: 2px;
+}
+.fsitem .image img {
+  width: 277px;
+  height: 191px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.fsitem .itetext h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  color: rgb(204, 15, 221);
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.fsitem .itetext span {
+  color: rgb(192, 81, 81);
+  margin-top: 4px;
+  font-size: 12px;
+}
+.fsitem p {
+  font-size: 12px;
+  line-height: 21px;
+}
+.fsitem .stars {
+  color: goldenrod;
+  font-size: 14px;
+}
+.fsitem {
+  position: relative;
+  width: 309px;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 10px 19px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.section-3 h1 {
+  text-align: center;
+  margin-top: 111px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.carousel-item img {
+  width: 60%;
+  height: 202px;
+  border-radius: 10px;
+  border: 2px dotted black;
+}
+        
+       }
+       /**
+       @media screen and(max-width:474px) {
+        .heros .aht {
+          margin-top: 251px;
+          margin-left: 14px;
+      }
+      .heros .aht h2 {
+        font-size: 18px;
+        color: rgb(65, 0, 243);
+        word-spacing: 0px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .heros .aht p {
+      margin-top: 17px;
+      color: rgb(230, 110, 180);
+      width: 157px;
+      text-align: justify;
+      font-size: 7px;
+  }
+  .heros .aht button {
+    padding: 4px;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.section-2 h1 {
+  text-align: center;
+  margin-top: 138px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 6px;
+  color: rgb(136, 50, 248);
+  letter-spacing: 2px;
+  word-spacing: 0px;
+  font-size: 22px;
+}
+        
+       }
+       @media screen and (max-width:348px) {
+        .search input {
+          width: 252px;
+          border: none;
+          background: transparent;
+          color: #fff;
+          outline: none;
+          font-size: 14px;
+          flex: 1;
+      }
+      .search {
+        float: right;
+        display: flex;
+        margin-top: 38px;
+        padding: 8px 8px;
+        background-color: rgba(12, 12, 12, 0.425);
+        border-radius: 30px;
+    }
+    .search button {
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 15px;
+  }
+  .heros img {
+    width: 156px;
+    height: 261px;
+    margin-top: 151px;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+.heros .aht {
+  margin-top: 162px;
+  margin-left: 22px;
+}
+.heros .aht h2 {
+  font-size: 7px;
+  color: rgb(65, 0, 243);
+  word-spacing: 0px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.heros .aht p {
+  margin-top: 10px;
+  color: rgb(230, 110, 180);
+  width: 121px;
+  text-align: justify;
+  font-size: 5px;
+}
+.heros .aht button {
+  padding: 2px;
+  font-size: 15px;
+  margin-top: 6px;
+}
+.section-2 h1 {
+  text-align: center;
+  margin-top: 93px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1px;
+  color: rgb(136, 50, 248);
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  font-size: 20px;
+}
+.fsitem .image img {
+  width: 298px;
+  height: 196px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.fsitem {
+  position: relative;
+  width: 333px;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 13px 18px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fsitem .itetext h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  color: rgb(204, 15, 221);
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.fsitem .itetext span {
+  color: rgb(192, 81, 81);
+  margin-top: 1px;
+}
+.fsitem p {
+  font-size: 10px;
+  line-height: 25px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.fsitem .stars {
+  color: goldenrod;
+  font-size: 15px;
+}
+.section-3 h1 {
+  text-align: center;
+  margin-top: 144px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.carousel-item img {
+  width: 60%;
+  height: 203px;
+  border-radius: 10px;
+  border: 2px dotted black;
+}
+.cols {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.cols p {
+  font-size: 11px;
+  width: 235px;
+}
+.cols h3 {
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 29px;
+  position: relative;
+}
+        
+       }
